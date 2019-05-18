@@ -38,10 +38,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CompareNETObjects" Version="4.59.0" />
     <PackageReference Include="Microsoft.Diagnostics.Tracing.EventRegister" Version="1.1.28" Condition="$(OS) == 'Windows_NT'">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.5.0" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.5.1" />
     <Reference Include="System.Net.Http" />
   </ItemGroup>
 

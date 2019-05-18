@@ -26,9 +26,10 @@
     <Compile Include="TelemetryItemType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Bond.CSharp" Version="7.0.1">
+    <PackageReference Include="Bond.CSharp" Version="8.1.0">
       <PrivateAssets>build</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="CompareNETObjects" Version="4.59.0" />
   </ItemGroup>
   <ItemGroup Condition="$(OS) == 'Windows_NT'">
     <BondCodegen Include="..\..\..\Schema\PublicSchema\AvailabilityData.bond">

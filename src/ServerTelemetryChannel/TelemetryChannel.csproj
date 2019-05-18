@@ -88,5 +88,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
   
+  <ItemGroup>
+    <PackageReference Include="CompareNETObjects" Version="4.59.0" />
+  </ItemGroup>
+  
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), 'Common.targets'))\Common.targets" />
 </Project>
